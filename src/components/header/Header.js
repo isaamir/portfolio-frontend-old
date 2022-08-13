@@ -9,7 +9,7 @@ import {
   skillsSection,
   bigProjects,
   educationInfo,
-  openSource,
+  // openSource,
   blogSection,
   talkSection,
   achievementSection
@@ -18,7 +18,7 @@ import {
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  // const viewOpenSource = openSource.display;
   const viewProjects = bigProjects.display;
   const viewEducation = educationInfo.display;
   const viewSkills = skillsSection.display;
